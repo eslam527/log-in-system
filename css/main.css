@@ -1,0 +1,91 @@
+.container{
+    min-height: 100vh;
+}
+.col-md-6{
+    height: 70vh;
+}
+.row{
+    margin-top: 100px!important;
+}
+.rev{
+    flex-direction: row-reverse;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.up::after{
+content: '';
+width: 0;
+height: 0;
+position: absolute;
+color: #000;
+bottom: 0;
+display: block;
+}
+.up:hover{
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.up:hover ::after{
+    width: 100%;
+    height: 1px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.in:hover{
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+body{
+    background-image: url(../overlay-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-left{
+    background-color: #ffffff96;
+}
+.bg-right{
+    background-color:rgba(255, 228, 196, 0.466) ;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-m{
+    margin-top: 50px!important;
+}
+nav{
+    background-color: rgba(250, 235, 215, 0.486);
+}
+.top-0-m{
+    margin-top: 0;
+}
+.Display{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff59;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+
+}
